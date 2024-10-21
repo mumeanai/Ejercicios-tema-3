@@ -11,7 +11,7 @@ Pruebe la función con el siguiente código:
 fecha_prueba = date(2024, 10, 2)
 
 # Caso 1: fecha dentro del intervalo
-print(fecha_en_intervalo(fecha_prueba, date(2024, 1, 1), ))  # True
+print(fecha_en_intervalo(fecha_prueba, date(2024, 1, 1), None ))  # True
 
 # Caso 2: fecha fuera del intervalo (menor que fecha_min)
 fecha_min = 
